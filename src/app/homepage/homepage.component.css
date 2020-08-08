@@ -1,0 +1,66 @@
+.box-modal{
+   background-color: #242526;
+   padding: 10px;
+   border-radius: 6px;
+   min-height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+}
+.box-modal h3{
+   color: #f7b928;
+   font-size: 15px;
+   font-weight: 500;
+   letter-spacing: 0.5px;
+}
+
+.activity-card{
+   width: 216px;
+   height: 156px;
+   background-color: #3a3b3c;
+   border-radius: 4px;
+}
+.communities-card{
+   width: 150px;
+   height: 208px;
+   background-color: #3a3b3c;
+   border-radius: 4px;
+}
+.box-modal button{
+   display: inline-block;
+   align-self: flex-end;
+   background: none;
+   color: #757575;
+   border: 1px solid;
+   font-size: 15px;
+   padding: 6px 15px;
+   border-radius: 4px;
+   margin-top: 10px;
+   font-weight: 600;
+}
+.box-modal button i{
+   margin-right: 5px;
+}
+
+
+.knowladge-base-list li{
+   color: #9d6dfc;
+   font-weight: 400;
+   font-size: 15px;
+   text-decoration: underline;
+}
+
+.advir-box{
+   min-height:auto;
+   height:50%
+}
+
+@media (max-width:767px){
+   .activity-card , .communities-card{
+      width: 100%;
+   }
+   .advir-box{
+      min-height:400px;   
+   }
+}
